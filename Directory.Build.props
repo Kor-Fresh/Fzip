@@ -1,0 +1,11 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Version>0.1.1</Version>
+    <Authors>KorFresh</Authors>
+    <Company>KorFresh</Company>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+</Project>

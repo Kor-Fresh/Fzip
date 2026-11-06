@@ -1,0 +1,28 @@
+.tools/
+**/bin/
+**/obj/
+artifacts/
+.vs/
+ALZip1237.exe
+
+# Local agent instructions and tooling
+[Aa][Gg][Ee][Nn][Tt].[Mm][Dd]
+[Aa][Gg][Ee][Nn][Tt][Ss].[Mm][Dd]
+[Ss][Kk][Ii][Ll][Ll].[Mm][Dd]
+CLAUDE.md
+GEMINI.md
+.agents/
+.agent/
+.codex/
+.claude/
+.cursor/
+
+# Signing secrets and local configuration
+*.pfx
+*.p12
+*.key
+*.pem
+.env
+.env.*
+design/branding/prompts-v1.txt
+design/branding/archive-icon-notes-v1.txt

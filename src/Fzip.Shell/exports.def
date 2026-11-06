@@ -1,0 +1,4 @@
+LIBRARY Fzip.Shell
+EXPORTS
+    DllGetClassObject
+    DllCanUnloadNow

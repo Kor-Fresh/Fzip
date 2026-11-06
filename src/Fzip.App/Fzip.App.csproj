@@ -1,0 +1,8 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>WinExe</OutputType><UseWPF>true</UseWPF><AssemblyName>Fzip</AssemblyName><ApplicationIcon>../../design/branding/fzip-app-v1.ico</ApplicationIcon><ApplicationManifest>app.manifest</ApplicationManifest></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../Fzip.Core/Fzip.Core.csproj" />
+    <Resource Include="../../design/branding/fzip-icon-v1.png" Link="Assets/mascot.png" />
+    <Resource Include="../../design/branding/fzip-archive-v1.png" Link="Assets/archive.png" />
+    <Content Include="../../design/branding/fzip-archive-v1.ico" Link="assets/archive.ico" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>
